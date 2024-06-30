@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;greenhouse2/Blinkanje_diode.ioc&apos; to &apos;greenhouse2.ioc&apos;" description="Rename resource &apos;Blinkanje_diode.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Blinkanje_diode.ioc" name="greenhouse2.ioc" stamp="1719670546182" updateReferences="true"/>
+</session>
