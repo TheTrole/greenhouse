@@ -165,3 +165,717 @@ Finished building: greenhouse.hex
  
 Finished building: greenhouse.list
  
+16:56:26 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6108	     40	   1664	   7812	   1e84	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:19:52 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  107 |    if(strcmp((char *)string1,"F")== 0){
+      |       ^~~~~~
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6156	     40	   1664	   7860	   1eb4	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:20:06 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6156	     40	   1664	   7860	   1eb4	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:20:11 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-size   greenhouse.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6156	     40	   1664	   7860	   1eb4	greenhouse.elf
+Finished building: default.size.stdout
+ 
+17:37:42 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+../Core/Src/main.c:171:13: warning: 'MX_ADC1_Init' defined but not used [-Wunused-function]
+  171 | static void MX_ADC1_Init(void)
+      |             ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6532	     40	   1664	   8236	   202c	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:39:22 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+   7840	     40	   1712	   9592	   2578	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:44:14 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:112:4: error: 'vrednost' undeclared (first use in this function)
+  112 |    vrednost=HAL_ADC_GetValue(&hadc1);
+      |    ^~~~~~~~
+../Core/Src/main.c:112:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:117:31: error: incompatible type for argument 2 of 'HAL_UART_Transmit'
+  117 |    HAL_UART_Transmit(&huart1, aX, 1, 0x500);
+      |                               ^~
+      |                               |
+      |                               double
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:338,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:749:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'double'
+  749 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:44:24 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:118:31: error: incompatible type for argument 2 of 'HAL_UART_Transmit'
+  118 |    HAL_UART_Transmit(&huart1, aX, 1, 0x500);
+      |                               ^~
+      |                               |
+      |                               double
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:338,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:749:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'double'
+  749 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:45:54 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:4: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+  116 |    snprintf(string1, 5, "%f", aX);
+      |    ^~~~~~~~
+../Core/Src/main.c:116:4: warning: incompatible implicit declaration of built-in function 'snprintf'
+../Core/Src/main.c:23:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   22 | #include "stdlib.h"
+  +++ |+#include <stdio.h>
+   23 | 
+../Core/Src/main.c:116:13: warning: pointer targets in passing argument 1 of 'snprintf' differ in signedness [-Wpointer-sign]
+  116 |    snprintf(string1, 5, "%f", aX);
+      |             ^~~~~~~
+      |             |
+      |             unsigned char *
+../Core/Src/main.c:116:13: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:116:26: warning: '%f' directive output may be truncated writing between 3 and 317 bytes into a region of size 5 [-Wformat-truncation=]
+  116 |    snprintf(string1, 5, "%f", aX);
+      |                          ^~
+../Core/Src/main.c:116:25: note: assuming directive output of 8 bytes
+  116 |    snprintf(string1, 5, "%f", aX);
+      |                         ^~~~
+../Core/Src/main.c:116:4: note: 'snprintf' output between 4 and 318 bytes into a destination of size 5
+  116 |    snprintf(string1, 5, "%f", aX);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  13900	    140	   1732	  15772	   3d9c	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:46:36 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:4: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+  116 |    snprintf(string1, 5, "%f", aX);
+      |    ^~~~~~~~
+../Core/Src/main.c:116:4: warning: incompatible implicit declaration of built-in function 'snprintf'
+../Core/Src/main.c:23:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   22 | #include "stdlib.h"
+  +++ |+#include <stdio.h>
+   23 | 
+../Core/Src/main.c:116:13: warning: pointer targets in passing argument 1 of 'snprintf' differ in signedness [-Wpointer-sign]
+  116 |    snprintf(string1, 5, "%f", aX);
+      |             ^~~~~~~
+      |             |
+      |             unsigned char *
+../Core/Src/main.c:116:13: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:116:26: warning: '%f' directive output may be truncated writing between 3 and 317 bytes into a region of size 5 [-Wformat-truncation=]
+  116 |    snprintf(string1, 5, "%f", aX);
+      |                          ^~
+../Core/Src/main.c:116:25: note: assuming directive output of 8 bytes
+  116 |    snprintf(string1, 5, "%f", aX);
+      |                         ^~~~
+../Core/Src/main.c:116:4: note: 'snprintf' output between 4 and 318 bytes into a destination of size 5
+  116 |    snprintf(string1, 5, "%f", aX);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  14612	    140	   1732	  16484	   4064	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:47:05 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:14: error: too few arguments to function 'itoa'
+  116 |    string1 = itoa(aX);
+      |              ^~~~
+In file included from ../Core/Src/main.c:22:
+e:\program files\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdlib.h:227:8: note: declared here
+  227 | char * itoa (int, char *, int);
+      |        ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:47:24 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:9: warning: passing argument 1 of 'itoa' makes integer from pointer without a cast [-Wint-conversion]
+  116 |    itoa(string1,aX);
+      |         ^~~~~~~
+      |         |
+      |         unsigned char *
+In file included from ../Core/Src/main.c:22:
+e:\program files\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdlib.h:227:14: note: expected 'int' but argument is of type 'unsigned char *'
+  227 | char * itoa (int, char *, int);
+      |              ^~~
+../Core/Src/main.c:116:17: error: incompatible type for argument 2 of 'itoa'
+  116 |    itoa(string1,aX);
+      |                 ^~
+      |                 |
+      |                 float
+In file included from ../Core/Src/main.c:22:
+e:\program files\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdlib.h:227:19: note: expected 'char *' but argument is of type 'float'
+  227 | char * itoa (int, char *, int);
+      |                   ^~~~~~
+../Core/Src/main.c:116:4: error: too few arguments to function 'itoa'
+  116 |    itoa(string1,aX);
+      |    ^~~~
+In file included from ../Core/Src/main.c:22:
+e:\program files\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdlib.h:227:8: note: declared here
+  227 | char * itoa (int, char *, int);
+      |        ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:48:21 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:20: error: expected expression before ')' token
+  116 |    itoa(string1,aX,);
+      |                    ^
+../Core/Src/main.c:116:9: warning: passing argument 1 of 'itoa' makes integer from pointer without a cast [-Wint-conversion]
+  116 |    itoa(string1,aX,);
+      |         ^~~~~~~
+      |         |
+      |         unsigned char *
+In file included from ../Core/Src/main.c:22:
+e:\program files\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdlib.h:227:14: note: expected 'int' but argument is of type 'unsigned char *'
+  227 | char * itoa (int, char *, int);
+      |              ^~~
+../Core/Src/main.c:116:17: error: incompatible type for argument 2 of 'itoa'
+  116 |    itoa(string1,aX,);
+      |                 ^~
+      |                 |
+      |                 float
+In file included from ../Core/Src/main.c:22:
+e:\program files\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdlib.h:227:19: note: expected 'char *' but argument is of type 'float'
+  227 | char * itoa (int, char *, int);
+      |                   ^~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:48:22 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:20: error: 'DECIMAL' undeclared (first use in this function)
+  116 |    itoa(string1,aX,DECIMAL);
+      |                    ^~~~~~~
+../Core/Src/main.c:116:20: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:116:9: warning: passing argument 1 of 'itoa' makes integer from pointer without a cast [-Wint-conversion]
+  116 |    itoa(string1,aX,DECIMAL);
+      |         ^~~~~~~
+      |         |
+      |         unsigned char *
+In file included from ../Core/Src/main.c:22:
+e:\program files\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdlib.h:227:14: note: expected 'int' but argument is of type 'unsigned char *'
+  227 | char * itoa (int, char *, int);
+      |              ^~~
+../Core/Src/main.c:116:17: error: incompatible type for argument 2 of 'itoa'
+  116 |    itoa(string1,aX,DECIMAL);
+      |                 ^~
+      |                 |
+      |                 float
+In file included from ../Core/Src/main.c:22:
+e:\program files\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdlib.h:227:19: note: expected 'char *' but argument is of type 'float'
+  227 | char * itoa (int, char *, int);
+      |                   ^~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:49:24 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:117:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  117 |    sprintf(string1, "%f", aX);
+      |    ^~~~~~~
+../Core/Src/main.c:117:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:23:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   22 | #include "stdlib.h"
+  +++ |+#include <stdio.h>
+   23 | 
+../Core/Src/main.c:117:12: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  117 |    sprintf(string1, "%f", aX);
+      |            ^~~~~~~
+      |            |
+      |            unsigned char *
+../Core/Src/main.c:117:12: note: expected 'char *' but argument is of type 'unsigned char *'
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  14564	    140	   1732	  16436	   4034	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:49:41 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:117:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  117 |    sprintf((char *)string1, "%f", aX);
+      |    ^~~~~~~
+../Core/Src/main.c:117:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:23:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   22 | #include "stdlib.h"
+  +++ |+#include <stdio.h>
+   23 | 
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  14564	    140	   1732	  16436	   4034	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:50:06 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  14564	    140	   1732	  16436	   4034	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:50:22 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-size   greenhouse.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14564	    140	   1732	  16436	   4034	greenhouse.elf
+Finished building: default.size.stdout
+ 
+17:50:29 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-size   greenhouse.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14564	    140	   1732	  16436	   4034	greenhouse.elf
+Finished building: default.size.stdout
+ 
+17:51:01 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  14264	    140	   1732	  16136	   3f08	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:52:22 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  12348	     40	   1712	  14100	   3714	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:52:41 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  12348	     40	   1712	  14100	   3714	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:52:57 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  12348	     40	   1712	  14100	   3714	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:53:00 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-size   greenhouse.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12348	     40	   1712	  14100	   3714	greenhouse.elf
+Finished building: default.size.stdout
+ 
+17:53:18 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-size   greenhouse.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12348	     40	   1712	  14100	   3714	greenhouse.elf
+Finished building: default.size.stdout
+ 
+17:54:32 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  12348	     40	   1712	  14100	   3714	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:55:22 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  12348	     40	   1712	  14100	   3714	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:56:23 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  12404	     40	   1712	  14156	   374c	greenhouse.elf
+Finished building: default.size.stdout
+Finished building: greenhouse.hex
+ 
+ 
+Finished building: greenhouse.list
+ 
+17:58:37 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:109:9: warning: variable 'aX' set but not used [-Wunused-but-set-variable]
+  109 |   float aX,vrednost;
+      |         ^~
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  12404	     40	   1712	  14156	   374c	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+17:59:15 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:109:9: warning: variable 'aX' set but not used [-Wunused-but-set-variable]
+  109 |   float aX,vrednost;
+      |         ^~
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  12348	     40	   1712	  14100	   3714	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+18:00:04 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:130:7: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  130 |    if(vrednost = 0){
+      |       ^~~~~~~~
+../Core/Src/main.c:109:9: warning: variable 'aX' set but not used [-Wunused-but-set-variable]
+  109 |   float aX,vrednost;
+      |         ^~
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  12356	     40	   1712	  14108	   371c	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+18:00:11 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:109:9: warning: variable 'aX' set but not used [-Wunused-but-set-variable]
+  109 |   float aX,vrednost;
+      |         ^~
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  12348	     40	   1712	  14100	   3714	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+18:05:18 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:109:9: warning: variable 'aX' set but not used [-Wunused-but-set-variable]
+  109 |   float aX,vrednost;
+      |         ^~
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+  12444	     40	   1712	  14196	   3774	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 
+18:08:03 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:96:3: warning: implicit declaration of function 'MX_ADC1_Init'; did you mean 'MX_GPIO_Init'? [-Wimplicit-function-declaration]
+   96 |   MX_ADC1_Init();
+      |   ^~~~~~~~~~~~
+      |   MX_GPIO_Init
+../Core/Src/main.c:121:7: error: 'vrednost' undeclared (first use in this function)
+  121 |    if(vrednost == 0){
+      |       ^~~~~~~~
+../Core/Src/main.c:121:7: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:08:20 **** Incremental Build of configuration Debug for project greenhouse ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: greenhouse.elf
+ 
+arm-none-eabi-size   greenhouse.elf 
+arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
+arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6128	     40	   1664	   7832	   1e98	greenhouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: greenhouse.hex
+ 
+Finished building: greenhouse.list
+ 

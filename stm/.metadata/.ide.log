@@ -579,3 +579,729 @@
 2024-07-01 16:16:45,291 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Warning: NLS missing message: ExternalToolsPreferencePage_External_tool_project_builders_migration_2 in: org.eclipse.ui.externaltools.internal.ui.ExternalToolsUIMessages
 2024-07-01 16:16:45,294 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Warning: NLS missing message: ExternalToolsPreferencePage_Prompt_before_migrating_3 in: org.eclipse.ui.externaltools.internal.ui.ExternalToolsUIMessages
 2024-07-01 16:16:45,296 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Warning: NLS missing message: ExternalToolsPreferencePage_1 in: org.eclipse.ui.externaltools.internal.ui.ExternalToolsUIMessages
+2024-07-01 17:19:37,935 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 782654712 Bytes (973078528)
+2024-07-01 17:19:38,750 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 802586584 Bytes (973078528)
+2024-07-01 17:19:39,915 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 828940704 Bytes (973078528)
+2024-07-01 17:19:40,082 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-07-01 17:19:40,082 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-07-01 17:19:40,082 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-07-01 17:19:40,082 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-07-01 17:19:40,084 [INFO] CodeGenerator:793 - code generatio: config db path: E:\Program Files\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2024-07-01 17:19:40,232 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\license.tmp_save
+2024-07-01 17:19:40,337 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\license.tmp
+2024-07-01 17:19:40,352 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\gpio.tmp_save
+2024-07-01 17:19:40,404 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\gpio.tmp
+2024-07-01 17:19:40,421 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_it.c_save
+2024-07-01 17:19:40,572 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_it.c
+2024-07-01 17:19:40,574 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_it.h_save
+2024-07-01 17:19:40,613 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_it.h
+2024-07-01 17:19:40,625 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_hal_msp.c_save
+2024-07-01 17:19:40,689 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_hal_msp.c
+2024-07-01 17:19:40,690 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\system.tmp_save
+2024-07-01 17:19:40,727 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\system.tmp
+2024-07-01 17:19:40,730 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-07-01 17:19:40,774 [INFO] CodeEngine:335 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_hal_conf.h
+2024-07-01 17:19:40,785 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\main.h_save
+2024-07-01 17:19:40,838 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\main.h
+2024-07-01 17:19:40,841 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\main.c_save
+2024-07-01 17:19:40,905 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\main.c
+2024-07-01 17:19:41,345 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 39mS.
+2024-07-01 17:19:41,346 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-07-01 17:19:41,570 [INFO] ConfigFileManager:1483 - The Die is : DIE412
+2024-07-01 17:19:42,420 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1074mS.
+2024-07-01 17:19:42,421 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-07-01 17:19:42,422 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-07-01 17:33:12,195 [INFO] ParamManager:886 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-07-01 17:33:12,263 [INFO] ParamManager:886 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-07-01 17:33:12,272 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-01 17:33:12,316 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-01 17:34:11,254 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-01 17:34:57,216 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-01 17:34:57,247 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-01 17:34:57,276 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-01 17:37:14,571 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 774047720 Bytes (997195776)
+2024-07-01 17:37:17,398 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 795019288 Bytes (997195776)
+2024-07-01 17:37:18,495 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 847973480 Bytes (997195776)
+2024-07-01 17:37:18,657 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-07-01 17:37:18,657 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-07-01 17:37:18,657 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-07-01 17:37:18,657 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-07-01 17:37:18,657 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-07-01 17:37:18,658 [INFO] CodeGenerator:793 - code generatio: config db path: E:\Program Files\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2024-07-01 17:37:18,784 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\license.tmp_save
+2024-07-01 17:37:18,837 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\license.tmp
+2024-07-01 17:37:18,845 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\gpio.tmp_save
+2024-07-01 17:37:18,923 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\gpio.tmp
+2024-07-01 17:37:18,996 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_it.c_save
+2024-07-01 17:37:19,163 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_it.c
+2024-07-01 17:37:19,166 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_it.h_save
+2024-07-01 17:37:19,204 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_it.h
+2024-07-01 17:37:19,214 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_hal_msp.c_save
+2024-07-01 17:37:19,284 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_hal_msp.c
+2024-07-01 17:37:19,285 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\system.tmp_save
+2024-07-01 17:37:19,322 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\system.tmp
+2024-07-01 17:37:19,325 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-07-01 17:37:19,370 [INFO] CodeEngine:335 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_hal_conf.h
+2024-07-01 17:37:19,378 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\main.h_save
+2024-07-01 17:37:19,426 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\main.h
+2024-07-01 17:37:19,428 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\main.c_save
+2024-07-01 17:37:19,502 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\main.c
+2024-07-01 17:37:19,921 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 63mS.
+2024-07-01 17:37:19,922 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-07-01 17:37:20,119 [INFO] ConfigFileManager:1483 - The Die is : DIE412
+2024-07-01 17:37:20,889 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 967mS.
+2024-07-01 17:37:20,889 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-07-01 17:37:20,890 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-07-01 17:38:27,510 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 689807272 Bytes (1020264448)
+2024-07-01 17:38:44,949 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 730874712 Bytes (1020264448)
+2024-07-01 17:38:46,009 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 750275416 Bytes (1020264448)
+2024-07-01 17:38:47,328 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 774392664 Bytes (1020264448)
+2024-07-01 17:38:47,475 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-07-01 17:38:47,475 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-07-01 17:38:47,475 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-07-01 17:38:47,475 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-07-01 17:38:47,475 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-07-01 17:38:47,475 [INFO] CodeGenerator:793 - code generatio: config db path: E:\Program Files\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2024-07-01 17:38:47,625 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\license.tmp_save
+2024-07-01 17:38:47,667 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\license.tmp
+2024-07-01 17:38:47,676 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\gpio.tmp_save
+2024-07-01 17:38:47,747 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\gpio.tmp
+2024-07-01 17:38:47,767 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_it.c_save
+2024-07-01 17:38:47,815 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_it.c
+2024-07-01 17:38:47,818 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_it.h_save
+2024-07-01 17:38:47,860 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_it.h
+2024-07-01 17:38:47,869 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_hal_msp.c_save
+2024-07-01 17:38:47,923 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_hal_msp.c
+2024-07-01 17:38:47,925 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\system.tmp_save
+2024-07-01 17:38:47,961 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\system.tmp
+2024-07-01 17:38:47,964 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-07-01 17:38:48,007 [INFO] CodeEngine:335 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_hal_conf.h
+2024-07-01 17:38:48,016 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\main.h_save
+2024-07-01 17:38:48,057 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\main.h
+2024-07-01 17:38:48,059 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\main.c_save
+2024-07-01 17:38:48,119 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\main.c
+2024-07-01 17:38:48,588 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 67mS.
+2024-07-01 17:38:48,589 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-07-01 17:38:48,809 [INFO] ConfigFileManager:1483 - The Die is : DIE412
+2024-07-01 17:38:49,530 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 941mS.
+2024-07-01 17:38:49,530 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-07-01 17:38:49,531 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-07-01 17:56:52,290 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:56:52,303 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:56:52,303 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:56:52,303 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:56:52,303 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:56:52,303 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:56:52,303 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:56:52,303 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:56:52,304 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:56:52,304 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:56:52,304 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:56:52,307 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,873 [INFO] ParamManager:886 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-07-01 17:57:01,888 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-01 17:57:01,906 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,906 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,906 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,906 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,906 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,906 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,906 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,906 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,906 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,906 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,908 [INFO] ParamManager:886 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-07-01 17:57:01,909 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,915 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,915 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,917 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,917 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,917 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,917 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,917 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,918 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,942 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,942 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,942 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,942 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,942 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,942 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,942 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,942 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,942 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,942 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,945 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,951 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,951 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,951 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,951 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,951 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,951 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,952 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,952 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,952 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,952 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:01,954 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,713 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,713 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,713 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,713 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,713 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,713 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,713 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,713 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,713 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,713 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,725 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,725 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,725 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,725 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,725 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,725 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,725 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,725 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,725 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,725 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,728 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,742 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,744 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,744 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,744 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,744 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,744 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,744 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,744 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,744 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,744 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,747 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,752 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,752 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,756 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,785 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,785 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,785 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,785 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,785 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,785 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,785 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,785 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,786 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,786 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,789 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,797 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,797 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,798 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,798 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,798 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,798 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,798 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,798 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,798 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,798 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:02,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 17:57:16,158 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,499x317,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-01 17:58:07,972 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 892396696 Bytes (1040187392)
+2024-07-01 18:01:21,072 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,072 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,072 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,072 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,073 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,073 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,073 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,073 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,073 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,073 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,075 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,082 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,083 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,083 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,083 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,083 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,083 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:21,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,758 [INFO] ParamManager:886 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-07-01 18:01:22,766 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-01 18:01:22,789 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,790 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,790 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,790 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,790 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,790 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,790 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,790 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,790 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,790 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,792 [INFO] ParamManager:886 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-07-01 18:01:22,794 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,800 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,803 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,840 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,841 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,841 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,841 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,841 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,841 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,841 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,841 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,841 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,841 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,843 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,850 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,851 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,851 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,851 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,851 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,851 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,851 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,851 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,851 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,851 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:22,853 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,479 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,480 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,480 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,480 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,480 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,480 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,480 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,480 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,480 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,480 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,484 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,493 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,493 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,493 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,493 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,493 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,500 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,500 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,511 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,531 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,531 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,534 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,543 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,565 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,565 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,566 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,566 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,566 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,566 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,566 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,566 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,566 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,566 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,569 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,576 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,577 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,577 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,577 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,577 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,577 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,577 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,577 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,577 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,577 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:23,580 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,429 [INFO] ParamManager:886 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-07-01 18:01:25,437 [INFO] ParamManager:886 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-07-01 18:01:25,438 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,445 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,445 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,445 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,445 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,445 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,445 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,446 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,446 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,446 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,446 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,447 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,470 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-01 18:01:25,498 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-01 18:01:25,519 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,519 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,519 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,519 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,519 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,519 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,519 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,519 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,519 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,519 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,521 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,527 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,527 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,527 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,527 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,527 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,527 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,527 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,527 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,527 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,527 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:01:25,529 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:05:14,977 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 861284768 Bytes (1040187392)
+2024-07-01 18:06:20,879 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,880 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,880 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,880 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,880 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,880 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,880 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,880 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,880 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,880 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,883 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,889 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,889 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,889 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,889 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,889 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,889 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,889 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,889 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,889 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,889 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:20,891 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,077 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,077 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,077 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,077 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,077 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,077 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,077 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,077 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,077 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,077 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,079 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,085 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,088 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,613 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,613 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,613 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,613 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,615 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,621 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,621 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,621 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,621 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,621 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,622 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,622 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,622 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,622 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,622 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:22,623 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,908 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,908 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,909 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,909 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,909 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,909 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,909 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,909 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,909 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,909 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,911 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,916 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:23,918 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,531 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,531 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,531 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,531 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,531 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,534 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,540 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,540 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,540 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,540 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:24,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,709 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,717 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,717 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,717 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,717 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,717 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:25,719 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,197 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,198 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,198 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,198 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,198 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,198 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,198 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,198 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,198 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,198 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,201 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,206 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,207 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,207 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,207 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,207 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,207 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,207 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,207 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,207 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,207 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,208 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,707 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,709 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,716 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:26,718 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,210 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,210 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,210 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,210 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,210 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,210 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,210 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,210 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,210 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,214 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,222 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,222 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,222 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,222 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,222 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,222 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,222 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,222 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,222 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,222 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,225 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,643 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,643 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,643 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,643 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,643 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,643 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,643 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,643 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,643 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,643 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,645 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,651 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,651 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,651 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,651 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,651 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,651 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,651 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,651 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,651 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,651 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:27,654 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,086 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,087 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,087 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,087 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,096 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,102 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,102 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,102 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,102 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,102 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,102 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,102 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,102 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,103 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,103 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:28,105 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,531 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,531 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,531 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,531 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,534 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,539 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,956 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,956 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,956 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,956 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,956 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,956 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,956 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,957 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,957 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,957 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,959 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,965 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,966 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,966 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,966 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,966 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,966 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,966 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,966 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,966 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,966 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:06:29,968 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-07-01 18:07:17,618 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 844380096 Bytes (1040187392)
+2024-07-01 18:07:18,603 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 877400168 Bytes (1040187392)
+2024-07-01 18:07:25,856 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 720313448 Bytes (1040187392)
+2024-07-01 18:07:26,004 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-07-01 18:07:26,004 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-07-01 18:07:26,004 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-07-01 18:07:26,004 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-07-01 18:07:26,004 [INFO] CodeGenerator:793 - code generatio: config db path: E:\Program Files\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2024-07-01 18:07:26,141 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\license.tmp_save
+2024-07-01 18:07:26,201 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\license.tmp
+2024-07-01 18:07:26,209 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\gpio.tmp_save
+2024-07-01 18:07:26,290 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\gpio.tmp
+2024-07-01 18:07:26,305 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_it.c_save
+2024-07-01 18:07:26,442 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_it.c
+2024-07-01 18:07:26,444 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_it.h_save
+2024-07-01 18:07:26,482 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_it.h
+2024-07-01 18:07:26,490 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_hal_msp.c_save
+2024-07-01 18:07:26,573 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\stm32f1xx_hal_msp.c
+2024-07-01 18:07:26,575 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\system.tmp_save
+2024-07-01 18:07:26,618 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\MXTmpFiles\system.tmp
+2024-07-01 18:07:26,621 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-07-01 18:07:26,663 [INFO] CodeEngine:335 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\stm32f1xx_hal_conf.h
+2024-07-01 18:07:26,671 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\main.h_save
+2024-07-01 18:07:26,718 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Inc\main.h
+2024-07-01 18:07:26,720 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\main.c_save
+2024-07-01 18:07:26,795 [INFO] CodeEngine:279 - Generated code: C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\Core\Src\main.c
+2024-07-01 18:07:27,174 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 64mS.
+2024-07-01 18:07:27,175 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-07-01 18:07:27,356 [INFO] ConfigFileManager:1483 - The Die is : DIE412
+2024-07-01 18:07:28,147 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 972mS.
+2024-07-01 18:07:28,147 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-07-01 18:07:28,148 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.

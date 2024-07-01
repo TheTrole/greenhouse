@@ -1,4 +1,4 @@
-16:34:08 **** Incremental Build of configuration Debug for project greenhouse ****
+18:08:20 **** Incremental Build of configuration Debug for project greenhouse ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "greenhouse.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\uSER\Desktop\greenhouse\stm\greenhouse\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="greenhouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -8,7 +8,7 @@ arm-none-eabi-size   greenhouse.elf
 arm-none-eabi-objdump -h -S  greenhouse.elf  > "greenhouse.list"
 arm-none-eabi-objcopy  -O ihex  greenhouse.elf  "greenhouse.hex"
    text	   data	    bss	    dec	    hex	filename
-   6108	     40	   1664	   7812	   1e84	greenhouse.elf
+   6128	     40	   1664	   7832	   1e98	greenhouse.elf
 Finished building: default.size.stdout
  
 Finished building: greenhouse.hex
@@ -16,5 +16,5 @@ Finished building: greenhouse.hex
 Finished building: greenhouse.list
  
 
-16:34:08 Build Finished. 0 errors, 0 warnings. (took 345ms)
+18:08:20 Build Finished. 0 errors, 0 warnings. (took 334ms)
 
