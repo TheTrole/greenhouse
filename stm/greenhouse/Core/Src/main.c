@@ -112,48 +112,44 @@ int main(void)
 	  HAL_ADC_Start(&hadc1);
 	  HAL_ADC_PollForConversion(&hadc1, 100);
 	  adcResult1 = HAL_ADC_GetValue(&hadc1);
-	  mv = ((float)adcResult1) * 3.3 / 4095.0;
+	  mv = ((float)adcResult1) * 10.0 / 4095.0;
 
 
 	  HAL_ADC_PollForConversion(&hadc1, 100);
 	  adcResult2 = HAL_ADC_GetValue(&hadc1);
-	  mv2 = ((float)adcResult2) * 3.3 / 4095.0;
+	  mv2 = ((float)adcResult2) * 10.0 / 4095.0;
 
 	  HAL_ADC_PollForConversion(&hadc1, 100);
 	  adcResult3 = HAL_ADC_GetValue(&hadc1);
-	  mv3 = ((float)adcResult3) * 3.3 / 4095.0;
+	  mv3 = ((float)adcResult3) * 10.0 / 4095.0;
 	  HAL_ADC_Stop(&hadc1);
 
     /* USER CODE END WHILE */
 	  HAL_UART_Receive(&huart1, string1, 1, 0x5000);
 	  HAL_UART_Transmit(&huart1, string1, 5, 0x500);
 
-//	  if(strcmp((char *)string1,"F")== 0){
-//		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
-//	  }
-//	  else{
-//		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
-//	  }
-
-	  if(mv2>1){
-		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+	  //Bolst biljke
+	  if(strcmp((char *)string1,"F")== 0){
+		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
 	  }
 	  else{
-	  	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
 	  }
 
-	  if(mv3>1){
+	  //Otvaranje vrata
+	  if(mv > 9.0 || mv2 < 5.0){
 		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
 	  }
 	  else{
 		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
 	  }
 
-	  if(mv>1){
-		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+	  //Navodnjavanje
+	  if(mv3 > 2.0){
+		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
 	  }
 	  else{
-		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
 	  }
 
     /* USER CODE BEGIN 3 */

@@ -16,3 +16,38 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-07-01 15:57:39.272
 !MESSAGE Indexed 'greenhouse' (17 sources, 78 headers) in 2.05 sec: 3,631 declarations; 13,137 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+!SESSION 2024-07-02 16:53:17.055 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\uSER\Desktop\Git\greenhouse\stm\greenhouse\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\uSER\Desktop\Git\greenhouse\stm\greenhouse\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-02 16:53:49.804
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-02 16:53:49.806
+!MESSAGE Log4j2 initialized with config file C:\Users\uSER\Desktop\Git\greenhouse\stm\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-02 16:54:03.011
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 368 2024-07-02 16:54:26.413
+!MESSAGE Resource '/greenhouse' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/greenhouse' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1021)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1113)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter$ProjectOperation.execute(MCUProjectImporter.java:189)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-02 16:54:29.652
+!MESSAGE Indexed 'greenhouse' (22 sources, 110 headers) in 2,19 sec: 8.809 declarations; 35.862 references; 8 unresolved inclusions; 820 syntax errors; 1.006 unresolved names (2,2%)
